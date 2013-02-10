@@ -1,0 +1,8 @@
+This is a quick and dirty tool that takes a wordpress export file and puts the
+comments in YAML files in a way that can be used by Jekyll::StaticComments.
+
+Syntax:
+
+  ./converter.py wordpress.DATE.xml /path/to/comment_directory
+
+See https://github.com/mpalmer/jekyll-static-comments
